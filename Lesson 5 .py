@@ -47,9 +47,15 @@ english_grade = "78"
 
 # Your tasks:
 # 1. Convert all to numbers (appropriate types)
+math_number = int(math_grade)
+science_number = float(science_grade)
+english_number = int(english_grade)
 # 2. Calculate the average
+average = (math_number + science_number + english_number) / 3
 # 3. Determine if average >= 80 (honor roll)
+is_honor_roll = average >= 80
 # 4. Create a report message using f-strings
+report = (f"Math: {math_number}") (f"Science: {science_number}") (f"English: {english_number}")
 
 
 # ====== BONUS - CODE ALONE CHALLENGE: User Profile Builder ======
